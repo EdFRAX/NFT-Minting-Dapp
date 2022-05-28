@@ -2,7 +2,7 @@
 
 ![](https://github.com/EdFRAX/NFT-Minting-Dapp/blob/main/src/styles/logo-blob.png)
 
-All the code in these repos was created, explained by [HashLips](https://github.com/HashLips) and designed by [EdFRAX](https://www.youtube.com/EdFRAX) on the EdFRAX YouTube channel.
+All the code in this repo was created, explained by [HashLips](https://github.com/HashLips) and this dapp is designed by [EdFRAX](https://www.youtube.com/EdFRAX) on the EdFRAX YouTube channel.
 
 To find out more please visit:
 
