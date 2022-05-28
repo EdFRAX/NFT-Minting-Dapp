@@ -1,0 +1,33 @@
+
+:root {
+  /* Body */
+  --primary: #ffffff;
+  --secondary:#ffffff;
+  --bg-angle:147deg;
+  --primary-text: #979797;
+  --owner:#fd3838;
+  --logo:300px;
+  
+  /* Image preview */
+  --img-size:280px;
+  --img-radius:10%;
+  --img-animation-primary:#fd3838;
+  --img-animation-secondary:#ffe53b;
+
+  /*Main container*/
+  --main-rarius:25px;
+  --main-bg-primary:#fd3838;
+  --main-bg-secondary:#ffe53b;
+  --main-angle:147deg;
+  --main-text: #ffffff;
+  --wallet-text: #101010;
+
+  /*Buttons*/
+  --btn-radius:30px;
+  --btn-color:#ffffff;
+  --btn-text:#fd3838;
+  --btn-text-hover:#000000;
+  
+  /*Buttons*/
+  --btn-sec-text:#fd3838;
+}
