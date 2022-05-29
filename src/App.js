@@ -29,6 +29,7 @@ text-align: center;
 text-transform: uppercase;
 font-weight: 700;
 border-color: var(--btn-color);
+border-image-source:linear-gradient(0deg, var(--btn-back-primary), var(--btn-back-secondary));
 color: var(--btn-text);
 box-shadow: 0 0 40px 40px var(--btn-color) inset, 0 0 0 0 var(--btn-color);
 transition: all 150ms ease-in-out;
@@ -110,6 +111,7 @@ export const StyledImg = styled.div`
   height: var(--img-size);
   background: url("/config/images/1.gif") no-repeat;
   background-size:cover;
+  background-repeat:no-repeat;
   background-color:#000000;
   border-radius: 20px;
   overflow: hidden;
@@ -125,19 +127,21 @@ export const StyledImg = styled.div`
     
     
     :nth-child(2){
+      opacity:var(--animation-showhide);
       width:calc(var(--img-size)*1.03);
       height:calc(var(--img-size)*1.03);
       background-image:linear-gradient(0deg, var(--img-animation-primary) 0%, var(--img-animation-secondary) 74%);
       z-index:8;
-      animation: spin 1.5s linear infinite;
+      animation: var(--animation) 1.5s linear infinite;
     }
     :nth-child(3){
+      opacity:var(--animation-shadow);
       z-index:6;
       width:calc(var(--img-size)*1.02);
       height:calc(var(--img-size)*1.02);
       background-image:linear-gradient(0deg, var(--img-animation-primary) 0%, var(--img-animation-secondary) 74%);
       filter:blur(15px);
-      animation: spin 1.5s linear infinite;
+      animation: var(--animation) 1.5s linear infinite;
     }
     @keyframes spin {
       0% {
@@ -506,8 +510,8 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-           COPYRIGHT © 2022 <span style={{color:"var(--owner)"}}>{ CONFIG.OWNER}</span> | ALL RIGHT RESERVED
-          </s.TextDescription>
+           COPYRIGHT © {CONFIG.YEAR} <span style={{color:"var(--owner)"}}>{CONFIG.OWNER}</span>.
+           </s.TextDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
