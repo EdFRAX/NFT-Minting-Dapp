@@ -52,6 +52,7 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
     "ID": 4
   },
   "OWNER":"EdFRAX",
+  "YEAR":"2022",
   "NFT_NAME": "Dis Coll One",
   "SYMBOL": "DSO",
   "MAX_SUPPLY": 10,
@@ -70,21 +71,28 @@ Now you will need to create and change 2 images and a gif in the `public/config/
 
 Next change the theme customization to your liking in the `public/config/theme.css` file.
 
+# I have given a lot of customization in this app, one can easily change size/animation/colors/angles as per his/her wish.
+
 ```css
+
 
 :root {
   /* Body */
-  --primary: #fffbfb;
-  --secondary:#101010;
+  --primary: #ffffff;
+  --secondary:#ffffff;
   --bg-angle:147deg;
-  --primary-text: #ffffff;
-  --owner:#ffe53b;
+  --primary-text: #979797;
+  --owner:#fd3838;
+  --logo:300px;
   
   /* Image preview */
   --img-size:280px;
   --img-radius:10%;
   --img-animation-primary:#fd3838;
   --img-animation-secondary:#ffe53b;
+  --animation:spin;
+  --animation-showhide:1;
+  --animation-shadow:1;
 
   /*Main container*/
   --main-rarius:25px;
@@ -98,7 +106,7 @@ Next change the theme customization to your liking in the `public/config/theme.c
   --btn-radius:30px;
   --btn-color:#ffffff;
   --btn-text:#fd3838;
-  --btn-text-hover:#0e0c0c;
+  --btn-text-hover:#000000;
   
   /*Buttons*/
   --btn-sec-text:#fd3838;
@@ -111,16 +119,16 @@ Now you will need to create and change the `public/favicon.ico`, `public/logo32.
 Remember to update the title and description the `public/index.html` file
 
 ```html
-<title>3D Shapes</title>
-<meta name="description" content="Mint Your 3D Shape" />
+<title>Your NFT Collection Name</title>
+<meta name="description" content="Mint Your NFT" />
 ```
 
 Also remember to update the short_name and name fields in the `public/manifest.json` file
 
 ```json
 {
-  "short_name": "DSO",
-  "name": "Dis Coll One"
+  "short_name": "SYMBOL",
+  "name": "collection_name"
 }
 ```
 
@@ -135,7 +143,8 @@ Or create the build if you are ready to deploy.
 ```sh
 npm run build
 ```
-
 Now you can host the contents of the build folder on a server.
 
-Thanks
+Or you can make your own repo to deploy this app on [Netlify](https://netlify.app/) like I did.
+
+Thanks.
