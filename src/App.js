@@ -510,7 +510,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-           COPYRIGHT © {CONFIG.YEAR} <span style={{color:"var(--owner)"}}>{CONFIG.OWNER}</span>.
+           COPYRIGHT © {CONFIG.YEAR} <span style={{color:"var(--owner)"}}>{CONFIG.OWNER}</span>
            </s.TextDescription>
         </s.Container>
       </s.Container>
