@@ -13,6 +13,9 @@
   --img-radius:10%;
   --img-animation-primary:#fd3838;
   --img-animation-secondary:#ffe53b;
+  --animation:spin;
+  --animation-showhide:1;
+  --animation-shadow:1;
 
   /*Main container*/
   --main-rarius:25px;
