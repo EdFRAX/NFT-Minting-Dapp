@@ -499,9 +499,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            You can only mint {CONFIG.MINTLIMIT} per wallet.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
