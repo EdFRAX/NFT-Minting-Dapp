@@ -499,7 +499,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            You can only mint {CONFIG.MINT_LIMIT} per wallet.
+            You can only mint {CONFIG.MINT_LIMIT} {CONFIG.SYMBOL} per wallet.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
