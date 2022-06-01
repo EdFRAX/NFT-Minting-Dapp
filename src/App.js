@@ -292,7 +292,7 @@ function App() {
         ai={"center"}
         style={{ padding: 24 }}
       >
-        <a href={CONFIG.MARKETPLACE_LINK}>
+        <a>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
