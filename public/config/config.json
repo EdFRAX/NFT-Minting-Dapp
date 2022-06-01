@@ -11,6 +11,7 @@
   "NFT_NAME": "Dis Coll One",
   "SYMBOL": "DSO",
   "MAX_SUPPLY": 10,
+  "MINT_LIMIT":10,
   "WEI_COST": false,
   "DISPLAY_COST": 0,
   "GAS_LIMIT": 285000,
