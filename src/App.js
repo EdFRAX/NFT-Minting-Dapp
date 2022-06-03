@@ -254,8 +254,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 50) {
-      newMintAmount = 50;
+    if (newMintAmount > 10) {
+      newMintAmount = 10;
     }
     setMintAmount(newMintAmount);
   };
@@ -329,7 +329,7 @@ function App() {
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+                {CONFIG.CONTRACT_ADDRESS}
               </StyledLink>
             </s.TextDescription>
             <span
@@ -349,6 +349,15 @@ function App() {
               </StyledButton>
             </span>
             <s.SpacerSmall />
+            <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--main-text)",
+            }}
+          >
+            You can only mint 10 {CONFIG.SYMBOL} per session.
+          </s.TextDescription>
+          <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
@@ -488,18 +497,9 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Please make sure you are connected to the right network (
+            Please make sure you are connected to the right network, (
             {CONFIG.NETWORK.NAME}) and the correct address.
             Please note: Once you make the purchase, you cannot undo this action.
-          </s.TextDescription>
-          <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          >
-            You can only mint {CONFIG.MINT_LIMIT} {CONFIG.SYMBOL} per wallet.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
