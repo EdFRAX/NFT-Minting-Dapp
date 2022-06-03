@@ -183,7 +183,6 @@ export const StyledImg = styled.div`
 export const StyledLink = styled.a`
   color: var(--wallet-text);
   text-decoration: none;
-  font-size:40px;
 `;
 
 
@@ -372,7 +371,7 @@ function App() {
                   You can still find {CONFIG.NFT_NAME} on
                 </s.TextDescription>
                 <s.SpacerSmall />
-                <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
+                <StyledLink style={{fontSize:"40px",textTransform:"uppercase",}} target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
                   {CONFIG.MARKETPLACE}
                 </StyledLink>
               </>
