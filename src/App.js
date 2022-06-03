@@ -183,6 +183,7 @@ export const StyledImg = styled.div`
 export const StyledLink = styled.a`
   color: var(--wallet-text);
   text-decoration: none;
+  font-size:40px;
 `;
 
 
@@ -361,7 +362,7 @@ function App() {
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--main-text)" }}
+                  style={{ textAlign: "center", color: "var(--alert-text)" }}
                 >
                   The sale has ended.
                 </s.TextTitle>
