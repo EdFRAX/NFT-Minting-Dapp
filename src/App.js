@@ -353,7 +353,7 @@ function App() {
             style={{
               textAlign: "center",
               color: "var(--main-text)",
-              fontSize: 30,
+              fontSize: 20,
             }}
           >
             You can only mint 10 {CONFIG.SYMBOL} per session.
