@@ -349,14 +349,15 @@ function App() {
               </StyledButton>
             </span>
             <s.SpacerSmall />
-            <s.TextDescription
+            <s.TextTitle
             style={{
               textAlign: "center",
               color: "var(--main-text)",
+              fontSize: 30,
             }}
           >
             You can only mint 10 {CONFIG.SYMBOL} per session.
-          </s.TextDescription>
+          </s.TextTitle>
           <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
