@@ -400,7 +400,7 @@ function App() {
                         color: "var(--alert-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+                      Connect to the {CONFIG.NETWORK.NAME}
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
