@@ -6,9 +6,9 @@ All the code in this repo was created, explained by [HashLips](https://github.co
 
 To find out more please visit:
 
-[YouTube](https://www.youtube.com/EdFRAX)
+[<img style="width:15px;height:15px;" src="https://gist.githubusercontent.com/EdFRAX/f4a5df2ed5de8341bae8a4329463e1d3/raw/377ad31d1bed7314f366b8dbe254ecf0c9e89803/yt.svg" /> YouTube](https://www.youtube.com/EdFRAX)
 
-[Instagram](https://instagram.com/edfrax)
+[<img style="width:15px;height:15px;" src="https://gist.githubusercontent.com/EdFRAX/9a215fa72a7d78c415e1180cdec9d198/raw/14372991dc0009cf36b70d4d15dcddf459fbe5b2/instagram.svg" /> Instagram](https://instagram.com/edfrax)
 
 # NFT minting dapp
 
