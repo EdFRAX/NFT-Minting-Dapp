@@ -10,6 +10,8 @@ To find out more please visit:
 
 [<img style="width:15px;height:15px;" src="https://gist.githubusercontent.com/EdFRAX/9a215fa72a7d78c415e1180cdec9d198/raw/14372991dc0009cf36b70d4d15dcddf459fbe5b2/instagram.svg" /> Instagram](https://instagram.com/edfrax)
 
+[<img style="width:15px;height:15px;" src="https://gist.githubusercontent.com/EdFRAX/ae053717ab24db7414faf00202e7e9e9/raw/bc68f74cfde4c0b28b6d9aee0a9bc689d686e07f/twitter.svg" /> Twitter](https://twitter.com/edfrax)
+
 # NFT minting dapp
 
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp. There are two ways of using this repo, you can go the simple route or the more complex one.
