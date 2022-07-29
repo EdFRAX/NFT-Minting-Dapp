@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x2fE2bE6397Fb9c742f7D27BeE35a3726649CF051",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x2fE2bE6397Fb9c742f7D27BeE35a3726649CF051",
+  "CONTRACT_ADDRESS": "0x8e8f45b894c6206608874bbc975070806d870c86",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x8e8f45b894c6206608874bbc975070806d870c86",
   "NETWORK": {
     "NAME": "Rinkeby Testnet",
     "SYMBOL": "ETH",
@@ -10,10 +10,10 @@
   "YEAR":"2022",
   "NFT_NAME": "Dis Coll One",
   "SYMBOL": "DSO",
-  "MAX_SUPPLY": 10,
+  "MAX_SUPPLY": 10000,
   "WEI_COST": false,
   "DISPLAY_COST": 0,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/dis-coll-one"
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/dso-collection"
 }
