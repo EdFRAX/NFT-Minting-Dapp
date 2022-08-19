@@ -11,7 +11,7 @@
   "NFT_NAME": "Dis Coll One",
   "SYMBOL": "DSO",
   "MAX_SUPPLY": 10000,
-  "WEI_COST": false,
+  "WEI_COST": 600000000000000000,
   "DISPLAY_COST": 0,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
