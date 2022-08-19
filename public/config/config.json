@@ -12,7 +12,7 @@
   "SYMBOL": "DSO",
   "MAX_SUPPLY": 10000,
   "WEI_COST": 600000000000000000,
-  "DISPLAY_COST": 0,
+  "DISPLAY_COST": 0.6,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/dso-collection"
